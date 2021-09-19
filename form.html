@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body{
+            padding-top: 100px;
+        }
+        input::focus{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+       <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Mohamed</span>Nour </h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#Education" class="nav-item nav-link">Education</a>
+                <a href="#skills" class="nav-item nav-link">Skills</a>
+                <a href="#my-work" class="nav-item nav-link">My Work</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <a href="table.html" class="nav-item nav-link">Table</a>
+                <a href="form.html" class="nav-item nav-link  active">Form</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    
+    <form>
+        <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td height="50" bgcolor="#DE8704">
+                    <table width="600" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="30"></td>
+                            <td width="80"><font color="#F3E124"><b>Sign Up</b></font></td>
+                            <td width="490"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- first name -->
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>First Name</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="text" placeholder="First Name" style="border: none; padding-left: 5px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- last name -->
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>Last Name</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="text" placeholder="Last Name" style="border: none; padding-left: 5px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- user Name -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>User Name</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="text" placeholder="User Name" style="border: none; padding-left: 5px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Date Of Birth -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>Date of Birth</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <select>
+                                    <option selected="selected">Day</option>
+                                    <option>Sat</option>
+                                    <option>Sun</option>
+                                    <option>Mon</option>
+                                    <option>Tue</option>
+                                </select>
+                                <select>
+                                    <option selected="selected">Month</option>
+                                    <option>Jan</option>
+                                    <option>Feb</option>
+                                    <option>Marc</option>
+                                    <option>Apr</option>
+                                </select>
+                                <select>
+                                    <option selected="selected">Year</option>
+                                    <option>2001</option>
+                                    <option>1999</option>
+                                    <option>1998</option>
+                                    <option>1997</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Gender -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>Gender</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="radio" name="Gender"><font color="#F3E124"><b>Male</b></font>
+                                <input type="radio" name="Gender"><font color="#F3E124"><b>Female</b></font>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Country -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>Country</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <select>
+                                    <option selected="selected">Country</option>
+                                    <option>Somalia</option>
+                                    <option>Bangladesh</option>
+                                    <option>USA</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+           
+           <!-- user Name -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>E-mail</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="email" placeholder="Enter Your E-mail" style="border: none; padding-left: 5px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+          
+          <!-- Phone -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>Phone</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="Number" placeholder="Phone Number" style="border: none; padding-left: 5px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+           
+           <!-- Password -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>Password</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="password" placeholder="Password" style="border: none; padding-left: 5px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+       <!-- Confirm Password -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"><font color="#F3E124"><b>Confirm Password</b></font></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="password" placeholder="Confirm Password" style="border: none; padding-left: 5px;">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+             
+             <!-- Cofirm Terms checkbox -->
+
+            <tr>
+                <td height="50" bgcolor="#222536">
+                    <table width="600" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"></td>
+                            <td width="10"></td>
+                            <td width="390"> 
+                                <input type="checkbox"><font color="#F3E124"><small> I a gree Terms & Conditions</small></font>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- submit buttom -->
+          <tr>
+                <td height="50" bgcolor="#DE8704">
+                    <table width="600" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td width="50"></td>
+                            <td width="150"></td>
+                            <td width="30"></td>
+                            <td width="370"> 
+                                <input type="submit" name="" value="SignUp" style="width: 170px; background: green; border: none; border-radius: 20px; margin-top: 5px; color: #fff;"><br>
+                                <small style="color: white;">I have already acoount please <a href="login.html">Login?</a></small>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            
+        </table>
+    </form>
+</body>
+</html>
